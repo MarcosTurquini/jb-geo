@@ -1,11 +1,3 @@
-/**
-* Template Name: UpConstruction
-* Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 (function() {
   "use strict";
 
@@ -166,4 +158,35 @@
    */
   new PureCounter();
 
+  /**
+   * Language switcher (redirección a carpetas)
+   */
+  const langButtons = document.querySelectorAll(".lang-btn");
+
+  langButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelector(".lang-btn.active")?.classList.remove("active");
+      btn.classList.add("active");
+
+      const lang = btn.dataset.lang;
+      localStorage.setItem("language", lang);
+
+      // Detectar la página actual
+      const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+      if (lang === "en") {
+        // Redirigir a la versión en inglés dentro de /pageEN/
+        location.href = "pagesEN/index.html";
+      } else {
+        // Redirigir a la versión en español (carpeta raíz)
+        location.href = "../index.html";
+      }
+    });
+  });
+
+  // Mantener idioma elegido al recargar (opcional)
+  const savedLang = localStorage.getItem("language");
+  if (savedLang) {
+    document.querySelector(`.lang-btn[data-lang="${savedLang}"]`)?.classList.add("active");
+  }
 })();

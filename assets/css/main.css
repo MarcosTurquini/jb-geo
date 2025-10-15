@@ -446,7 +446,67 @@ h6 {
   .mobile-nav-active .navmenu>ul {
     display: block;
   }
+  
 }
+
+.language-switcher-li {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo del switch (ajusta colores a tu tema) */
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: none;
+  padding: 2px 6px;
+  cursor: pointer;
+  font-weight: 600;
+  color: inherit; /* toma color del nav */
+}
+
+.lang-btn:focus {
+  outline: 2px solid #4d90fe; /* accesibilidad */
+  outline-offset: 2px;
+}
+
+.lang-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Separador */
+.separator {
+  color: rgba(255,255,255,0.6); /* ajusta según fondo */
+  margin: 0 4px;
+}
+
+/* Estado activo */
+.lang-btn.active {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.lang-btn:not(.active) {
+  opacity: 0.8;
+}
+
+/* Si quieres ocultar la etiqueta "ES"/"EN" en móvil */
+@media (max-width: 600px) {
+  .lang-label { display: none; }
+}
+
 
 /*--------------------------------------------------------------
 # Global Footer
@@ -583,6 +643,32 @@ h6 {
 .footer .credits {
   margin-top: 8px;
   font-size: 13px;
+}
+
+.language-switcher {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+  margin-left: auto; /* si quieres que esté al final del navbar */
+}
+
+.lang-icon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.6;
+  transition: opacity 0.3s, transform 0.2s;
+}
+
+.lang-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.lang-icon.active {
+  opacity: 1;
+  border: 2px solid #fff;
+  border-radius: 50%;
 }
 
 /*--------------------------------------------------------------
