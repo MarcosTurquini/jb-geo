@@ -154,7 +154,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 60px;
   margin-right: 8px;
 }
 
@@ -888,6 +888,13 @@ section,
   font-weight: 700;
   position: relative;
 }
+
+.hero-logo {
+  width: 500px;      /* Ajusta el tamaño del logo */
+  max-width: 100%;   /* Previene expansión */
+  margin-bottom: 20px;
+}
+
 
 .hero .info h2:after {
   content: "";
