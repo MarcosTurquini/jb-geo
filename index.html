@@ -20,7 +20,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css">
 
-
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <link href="./assets/css/main.css" rel="stylesheet">
 </head>
 
@@ -129,25 +129,29 @@
           </div>
 
           <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-            <form action="forms/quote.php" method="post" class="php-email-form">
+            <form id="contact-form" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
               <h3>Dejanos tu consulta</h3>
 
               <div class="row gy-3">
 
                 <div class="col-12">
-                  <input type="text" name="name" class="form-control" placeholder="Nombre" required="">
+                  <input type="text" name="user_name" class="form-control" placeholder="Tu nombre" required>
                 </div>
 
                 <div class="col-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                  <input type="email" class="form-control" name="user_email" placeholder="Tu email" required>
                 </div>
 
                 <div class="col-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Telefono" required="">
+                  <input type="text" class="form-control" name="user_phone" placeholder="Teléfono" required>
+                </div>
+
+                <div class="col-md-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Asunto" required>
                 </div>
 
                 <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required=""></textarea>
+                  <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required></textarea>
                 </div>
 
                 <div class="col-12 text-center">
@@ -627,6 +631,10 @@
   <!-- Preloader -->
   <div id="preloader"></div>
 
+  <!-- EmailJS SDK -->
+<script type="text/javascript" src="/assets/js/emailjs-handler.js"></script>
+<script src="/assets/js/emailjs-handler.js"></script>
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
@@ -639,6 +647,7 @@
 
   <!-- Main JS File -->
   <script src="./assets/js/main.js"></script>
+
 
 </body>
 
