@@ -442,7 +442,7 @@ p {
 }
 
 .language-switcher-li {
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 
@@ -462,7 +462,7 @@ p {
   padding: 2px 6px;
   cursor: pointer;
   font-weight: 600;
-  color: inherit; /* toma color del nav */
+  color: rgb(143, 142, 142); /* toma color del nav */
 }
 
 .lang-btn:focus {
@@ -498,6 +498,7 @@ p {
 @media (max-width: 600px) {
   .lang-label { display: none; }
 }
+
 
 
 /*--------------------------------------------------------------
@@ -2468,4 +2469,50 @@ section,
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+
+
+
+/* ==================================================
+  FIX ESPACIO EN BLANCO - ALT SERVICES (MOBILE)
+   ================================================== */
+@media (max-width: 990px) {
+
+  /* Reduce padding vertical de la sección */
+  #alt-services {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+  /* Reduce altura excesiva de la imagen */
+  #alt-services .features-image {
+    min-height: 220px;
+    margin-bottom: 20px;
+  }
+
+  /* Ajuste fino de la imagen */
+  #alt-services .features-image img {
+    object-position: center;
+    position: relative;
+  }
+
+  /* Sube el título */
+  #alt-services h3 {
+    margin-top: 0;
+    padding-bottom: 15px;
+  }
+
+  /* Reduce separación entre icon-box */
+  #alt-services .icon-box {
+    margin-top: 25px;
+  }
+
+}
+
+
+@media (max-width: 990px) {
+  .alt-services .features-image {
+    min-height: auto;
+    aspect-ratio: 16 / 9;
+  }
 }
