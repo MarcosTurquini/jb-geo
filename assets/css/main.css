@@ -663,6 +663,35 @@ p {
   border-radius: 50%;
 }
 
+@media (max-width: 768px) {
+
+  /* Centra la columna del menú del footer */
+  .footer .footer-links {
+    text-align: center;
+  }
+
+  /* Centra la lista */
+  .footer .footer-links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Corrige el flex forzado en los li */
+  .footer .footer-links ul li {
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  /* Centrar íconos de redes sociales */
+  .footer .social-links {
+    justify-content: center;
+  }
+
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
