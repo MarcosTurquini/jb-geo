@@ -16,6 +16,7 @@ El sitio prioriza la **experiencia de usuario**, el **diseño responsive** y una
 - HTML5  
 - CSS3  
 - JavaScript (ES6+)  
+- Bootstrap
 
 ---
 
