@@ -36,11 +36,9 @@
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="../pagesEN/index.html" class="nav-link" data-key="home">Home</a></li>
-        <li><a href="../pagesEN/about.html" class="nav-link" data-key="about">About Us</a></li>
-        <li><a href="../pagesEN/services.html" class="nav-link" data-key="services">Services</a></li>
-        <!-- <li><a href="../pagesEN/projects.html" class="nav-link" data-key="projects">Projects</a></li>  -->
-        <li><a href="../pagesEN/contact.html" class="nav-link" data-key="contact">Contact</a></li>
-          <!-- language-switcher como <li> para mantener HTML válido -->
+        <li><a href="#get-started" class="nav-link" data-key="about">About Us</a></li>
+        <li><a href="#Nservicios" class="nav-link" data-key="services">Services</a></li>
+        <li><a href="#contactanos" class="nav-link" data-key="contact">Contact</a></li>
         <li class="language-switcher-li">
           <div class="language-switcher">
             <button class="lang-btn" data-lang="es">
@@ -70,9 +68,10 @@
           <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-6 text-center">
               <img src="../assets/img/logoPNG.png" alt="JBGEO Logo" class="hero-logo">
-              <p>Consulting firm specializing in hydrogeological and geo-environmental services. We provide comprehensive solutions for the exploration,
-                characterization, and management of water and mineral resources, combining advanced technology, professional expertise, and a sustainable approach.</p>
-              <a href="#get-started" class="btn-get-started">Let's begin.</a>
+              <p>Specialized consultancy in hydrogeological and geo-environmental services, we provide comprehensive solutions for the exploration, 
+                characterization, and management of water and mining resources, combining advanced technology, professional experience, and a 
+                sustainable approach.</p>
+              <a href="#get-started" class="btn-get-started">Let's begin</a>
             </div>
           </div>
         </div>
@@ -112,67 +111,142 @@
 
     </section><!-- /Hero Section -->
 
-    <!-- Get Started Section -->
-    <section id="get-started" class="get-started section">
+<!-- About Section -->
+    <section id="get-started" class="get-started about section">
 
       <div class="container">
 
-        <div class="row justify-content-between gy-4">
+        <div class="row position-relative">
 
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <div class="content">
-              <h3>About us.</h3>
-              <p>JB GEO was founded in 2022 amid growing mining activity in northwestern Argentina. Our goal is to provide comprehensive hydrogeological consulting services, 
-                drawing on the experience of our founders and the application of innovative technologies. We support companies and organizations in the exploration, quantification, 
-                and sustainable management of water resources, offering reliable and sustainable water resource management solutions that deliver value.</p>
+          <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="../assets/img/jbgeo/nosotros.jpeg"></div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="inner-title" id="quienes">Who We Are</h2>
+            <div class="our-story">
+              <h4>Since 2022</h4>
+              <h3>JB GEO S.R.L.</h3>
+              <p>Within the context of the sustained growth of mining activity in the NOA region, JB GEO S.R.L. emerges with the goal of 
+                providing comprehensive hydrogeological and environmental consultancy. Our proposal is based on the solid experience of our 
+                founding partners and on the application of innovative technologies and methodologies for the exploration, quantification, control, 
+                and sustainable management of water resources. With the challenge of establishing ourselves as a comprehensive, reliable, and efficient 
+                solution, we accompany companies and organizations through high-quality, responsible, and value-added services, backed by a highly 
+                trained team committed to sustainable development.</p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Scientific Rigor</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Innovation and Technology Management</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Management and Planning Capacity</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Work in Adverse Conditions</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Commitment to Safety and the Environment</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Analytical and Observational Skills</span></li>                
+              </ul>
             </div>
           </div>
-
-          <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-            <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Send us your inquiry</h3>
-
-              <div class="row gy-3">
-
-                <div class="col-12">
-                  <input type="text" name="name" class="form-control" placeholder="Nombre" required="">
-                </div>
-
-                <div class="col-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                </div>
-
-                <div class="col-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Telefono" required="">
-                </div>
-
-                <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required=""></textarea>
-                </div>
-
-                <div class="col-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your inquiry has been sent successfully. Thank you!</div>
-
-                  <button type="submit">Request your consultation</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Quote Form -->
 
         </div>
 
       </div>
 
-    </section><!-- /Get Started Section -->
+    </section><!-- /About Section -->
+
+        <!-- Alt Services Section -->
+    <section id="alt-services" class="alt-services section">
+
+      <div class="container">
+
+        <div class="rowc justify-content-around gy-4">
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="../assets/img/jbgeo/diferenciales.jpeg" alt=""></div>
+
+          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <h3>Our Differentiators</h3>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-easel flex-shrink-0"></i>
+              <div>
+                <h4><a class="stretched-link">Proven Experience</a></h4>
+                <p>More than 9 years of experience in applied hydrogeology in mining and environment, with results that back up our clients' trust.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-patch-check flex-shrink-0"></i>
+              <div>
+                <h4><a class="stretched-link">Advanced Technology</a></h4>
+                <p>Own state-of-the-art equipment (SEV, electric profilers, RTK drones, geodetic GPS).</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a class="stretched-link">Integral Support</a></h4>
+                <p>Technical, productive and legal support in all stages of the project, from initial exploration to regulatory management.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
+              <i class="bi bi-search flex-shrink-0"></i>
+              <div>
+                <h4><a class="stretched-link">Sustainable Commitment</a></h4>
+                <p>Methodologies focused on efficiency and water resource conservation, providing responsible and long-term value solutions.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Alt Services Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member-img">
+              <img src="../assets/img/jbgeo/brianReale.png" class="img-fluid" alt="">
+              <div class="social">
+                <a href="https://www.instagram.com/realebrian/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/brian-reale-portelli-862311157/" target="_blank"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Geol. Brian Reale</h4>
+              <span>Managing Partner</span>
+              <p>Specialist in Hydrogeology and Project Management MBA</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+            <div class="member-img">
+              <img src="../assets/img/jbgeo/joaquinTeruel.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <a href="https://www.instagram.com/joacoteruel/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/joaqu%C3%ADn-teruel-86673b148/" target="_blank"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Geol. Joaquín Teruel</h4>
+              <span>Managing Partner</span>
+              <p>Specialist in Hydrogeology and Project Management</p>
+            </div>
+          </div><!-- End Team Member -->
+    </section><!-- /Team Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section light-background">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title Nservicios" data-aos="fade-up" id="Nservicios">
         <h2>Services</h2>
       </div><!-- End Section Title -->
 
@@ -185,8 +259,8 @@
               <div class="icon">
                 <i class="fa-solid fa-mountain-city"></i>
               </div>
-              <h3>Geophysical prospecting.</h3>
-              <p>We have equipment to perform vertical electrical surveys and electrical profiling of wells.</p>
+              <h3>Geophysical Prospecting</h3>
+              <p>We have equipment to perform Vertical Electrical Soundings and Electric Well Logging.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -195,8 +269,8 @@
               <div class="icon">
                 <i class="fa-solid fa-arrow-up-from-ground-water"></i>
               </div>
-              <h3>Sampling and integration of information.</h3>
-              <p>Sampling and generation of statistical information on the variables that act in a hydrogeological basin.</p>
+              <h3>Sampling and Information Integration</h3>
+              <p>Sampling and generation of statistical information for variables acting within a hydrogeological basin.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -205,10 +279,10 @@
               <div class="icon">
                 <i class="fa-solid fa-compass-drafting"></i>
               </div>
-              <h3>Topography and geodesy with RTK drones and geodetic GPS.</h3>
-              <p>We perform high-precision topographic surveys using RTK drones and geodetic GPS equipment. 
-                These studies allow us to generate digital terrain models, orthomosaics, contour lines, volume calculations, and detailed planimetric surveys, 
-                which are essential for engineering, construction supervision, and mining planning.</p>
+              <h3>Topography and Geodesy with RTK Drones and GPS</h3>
+              <p>We conduct high-precision topographic surveys using RTK drones and geodetic GPS equipment. These studies allow for the generation of 
+                digital terrain models, orthomosaics, contour lines, volume calculations, and detailed planialtimetry, fundamental for engineering, 
+                construction control, and mine planning.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -217,8 +291,19 @@
               <div class="icon">
                 <i class="fa-solid fa-trowel-bricks"></i>
               </div>
-              <h3>Hydraulic parameters of wells and aquifers.</h3>
-              <p>Conducting and interpreting pumping tests to assess the hydraulic parameters of wells and aquifers.</p>
+              <h3>Hydraulic Parameters of Wells and Aquifers</h3>
+              <p>Execution and interpretation of pumping tests for the assessment of hydraulic parameters of wells and aquifers.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-trowel-bricks"></i>
+              </div>
+              <h3>Well Filming and Diagnosis</h3>
+              <p>Internal inspection with a camera to evaluate the well's condition, detect obstructions or damage, and provide a clear diagnosis 
+                for its maintenance and optimization.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -227,9 +312,9 @@
               <div class="icon">
                 <i class="fa-solid fa-helmet-safety"></i>
               </div>
-              <h3>Geographic Information Systems and Software.</h3>
+              <h3>Software and Geographic Information Systems</h3>
               <p>Application of software and Geographic Information Systems in geo-environmental, hydrogeological, and mining studies, 
-                using geological mapping and geoprocessing techniques with 2D and 3D representation, as well as various remote sensing tools.</p>
+                using geological mapping techniques and geoprocessing with 2D and 3D representation, as well as various remote sensing tools.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -238,9 +323,10 @@
               <div class="icon">
                 <i class="fa-solid fa-arrow-up-from-ground-water"></i>
               </div>
-              <h3>Quantification and classification of water resources.</h3>
-              <p>We assess and organize water availability in a region through technical and scientific studies. This process allows us to identify the volume, quality, 
-                and types of water resources, providing the information necessary to plan for their efficient and sustainable use.</p>
+              <h3>Quantification and Classification of Water Resources</h3>
+              <p>We evaluate and organize water availability in a region through technical and scientific studies. 
+                This process identifies volumes, quality, and types of water resources, providing the necessary information to plan their efficient 
+                and sustainable use.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -249,8 +335,8 @@
               <div class="icon">
                 <i class="fa-solid fa-hexagon-nodes"></i>
               </div>
-              <h3>Development of conceptual, hydrodynamic, and balance models.</h3>
-              <p>Development of geostatistical and hydrodynamic modeling of basins. Water load and balance studies.</p>
+              <h3>Development of Conceptual, Hydrodynamic, and Balance Models</h3>
+              <p>Development of geostatistical and hydrodynamic basin models. Recharge and water balance studies.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -259,21 +345,22 @@
               <div class="icon">
                 <i class="fa-solid fa-paper-plane"></i>
               </div>
-              <h3>Comprehensive solutions and support for productive development.</h3>
-              <p>We provide comprehensive services ranging from initial exploration to the production stage. We support our clients in the planning, implementation, 
-                and optimization of mining and environmental projects, contributing technical expertise and strategic vision to ensure sustainable results.</p>
+              <h3>Comprehensive Solutions and Support in Productive Development</h3>
+              <p>We provide a comprehensive service covering from initial exploration to the production stage. We accompany our clients in the 
+                planning, implementation, and optimization of mining and environmental projects, providing technical experience and a strategic 
+                vision to guarantee sustainable results.</p>
             </div>
           </div><!-- End Service Item -->
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="col-lg-4 col-md-6 last-service" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="fa-solid fa-sitemap"></i>
               </div>
-              <h3>Legal and regulatory advice.</h3>
-              <p>We provide support in permit management, technical presentations before enforcement authorities, 
-                and environmental and water regulatory compliance. Our team assists companies in preparing impact reports, 
-                technical defenses, and legal procedures related to the exploration and exploitation of natural resources.</p>
+              <h3>Legal and Regulatory Advisory</h3>
+              <p>We provide support in permit management, technical submissions to regulatory authorities, and compliance with environmental 
+                and water regulations. Our team assists companies in preparing impact reports, technical defenses, and legal procedures 
+                related to the exploration and exploitation of natural resources.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -283,297 +370,180 @@
 
     </section><!-- /Services Section -->
 
-    <!-- Alt Services Section -->
-    <section id="alt-services" class="alt-services section">
+    <!-- Testimonials Section -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Some of Our Clients</h2>
+      </div><!-- End Section Title -->
+<section id="logos" class="logos section">
 
-      <div class="container">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row justify-content-around gy-4">
-          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="../assets/img/jbgeo/img33.jpeg" alt=""></div>
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 3000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 1,
+              "spaceBetween": 40
+            },
+            "1200": {
+              "slidesPerView": 2,
+              "spaceBetween": 20
+            }
+          }
+        }
+      </script>
 
-          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>Our differentiators.</h3>
+      <div class="swiper-wrapper">
 
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-easel flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Proven experience.</a></h4>
-                <p>More than 9 years of experience in applied hydrogeology in mining and the environment, with results that support our clients' trust.</p>
-              </div>
-            </div><!-- End Icon Box -->
+        <div class="swiper-slide">
+          <div class="logo-item">
+            <img src="../assets/img/empresas/aabra.png" alt="">
+          </div>
+        </div>
 
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-patch-check flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Advanced Technology.</a></h4>
-                <p>State-of-the-art equipment (SEV, electric profilers, RKT drones, geodetic GPS).</p>
-              </div>
-            </div><!-- End Icon Box -->
+        <div class="swiper-slide">
+          <div class="logo-item">
+            <img src="../assets/img/empresas/andina.png" alt="">
+          </div>
+        </div>
 
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-brightness-high flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Comprehensive support.</a></h4>
-                <p>Technical, production, and legal support at all stages of the project, from initial exploration to regulatory management.</p>
-              </div>
-            </div><!-- End Icon Box -->
+        <div class="swiper-slide">
+          <div class="logo-item">
+            <img src="../assets/img/empresas/chengxin.png" alt="">
+          </div>
+        </div>
 
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-              <i class="bi bi-search flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Sustainable commitment.</a></h4>
-                <p>Methodologies focused on efficiency and water resource conservation, providing responsible solutions and long-term value.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
+        <div class="swiper-slide">
+          <div class="logo-item">
+            <img src="../assets/img/empresas/conhidro.png" alt="">
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="logo-item">
+            <img src="../assets/img/empresas/explora.png" alt="">
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="logo-item">
+            <img src="../assets/img/empresas/goldinka.png" alt="">
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="logo-item">
+            <img src="../assets/img/empresas/lithium.png" alt="">
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="logo-item">
+            <img src="../assets/img/empresas/litica.png" alt="">
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="logo-item">
+            <img src="../assets/img/empresas/nova.png" alt="">
           </div>
         </div>
 
       </div>
 
-    </section><!-- /Alt Services Section -->
+      <div class="swiper-pagination"></div>
 
-    </section><!-- /Features Section -->
+    </div>
 
-    <!-- Projects Section 
-    <section id="projects" class="projects section">
+  </div>
 
-      <!-- Section Title 
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Projects</h2>
-        <p>Some of our projects</p>
-      </div><!-- End Section Title
+</section><!-- /Testimonials Section -->
 
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">Todos</li>
-            <li data-filter=".filter-remodeling">Lorem, ipsum.</li>
-            <li data-filter=".filter-construction">Lorem, ipsum dolor.</li>
-            <li data-filter=".filter-repairs">Lorem ipsum dolor sit.</li>
-            <li data-filter=".filter-design">Lorem ipsum dolor sit amet.</li>
-          </ul><!-- End Portfolio Filters 
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/jbgeo/img11.jpeg" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/jbgeo/img13.jpeg" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/jbgeo/img25.jpeg" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/jbgeo/img28.jpeg" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/jbgeo/img30.jpeg" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/jbgeo/img31.jpeg" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/jbgeo/img32.jpeg" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/jbgeo/img33.jpeg" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Portfolio Item 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/jbgeo/img37.jpeg" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/jbgeo/img40.jpeg" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/jbgeo/img57.jpeg" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
-              <div class="portfolio-content h-100">
-                <img src="../assets/img/jbgeo/img60.webp" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Portfolio Item 
-
-          </div><!-- End Portfolio Container 
-
-        </div>
-
+      <!-- Contact Title -->
+      <div class="container section-title contactanos" data-aos="fade-up" id="contactanos">
+        <h2>Contact Us</h2>
       </div>
-
-    </section><!-- /Projects Section -->
-
-    <!-- Testimonials Section 
-    <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title 
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Individuals and companies who hired us for their projects.</p>
-      </div><!-- End Section Title 
+        <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 20
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
+        <div class="row gy-4">
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="../assets/img/testimonials/persona.png" class="testimonial-img" alt="">
-                  <h3>Lorem, ipsum.</h3>
-                  <h4>lorem1 &amp; Lorem.</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, deleniti!.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
+          <div class="col-lg-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Address</h3>
+              <p>Salta, Capital</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone"></i>
+              <h3>Calls</h3>
+              <p> <a href="https://wa.me/3874032062" target="_blank"> +54 9 3874 03-2062 </a></p>
+              <p> <a href="https://wa.me/3875204407" target="_blank"> +54 9 3875 20-4407 </a></p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope"></i>
+              <h3>Our Emails</h3>
+              <p>jteruel@jbgeoconsultora.com</p>
+              <p>breale@jbgeoconsultora.com</p>
+              <p>contacto@jbgeoconsultora.com</p>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <div class="row gy-4 mt-1">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115903.5768655382!2d-65.51320070447278!3d-24.795906306063927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a35151b7f9%3A0xa5cd992cd587f206!2sSalta!5e0!3m2!1ses-419!2sar!4v1765332636328!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div><!-- End Google Maps -->
+
+    <div class="col-lg-6">
+        <form id="contact-form" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
+            <div class="row gy-4">
+                <div class="col-md-6">
+                    <input type="text" name="user_name" class="form-control" placeholder="Your name" required>
                 </div>
-              </div>
-            </div><!-- End testimonial item 
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="../assets/img/testimonials/persona.png" class="testimonial-img" alt="">
-                  <h3>Lorem, ipsum.</h3>
-                  <h4>Lorem.</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, pariatur.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" name="user_email" placeholder="Your email" required>
                 </div>
-              </div>
-            </div><!-- End testimonial item 
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="../assets/img/testimonials/persona.png" class="testimonial-img" alt="">
-                  <h3>Lorem, ipsum.</h3>
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, excepturi.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
+                <div class="col-md-12">
+                    <input type="text" class="form-control" name="user_phone" placeholder="Phone" required>
                 </div>
-              </div>
-            </div><!-- End testimonial item 
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="../assets/img/testimonials/persona.png" class="testimonial-img" alt="">
-                  <h3>Lorem, ipsum dolor.</h3>
-                  <h4>Lorem.</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, consectetur.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
+                <div class="col-md-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
                 </div>
-              </div>
-            </div><!-- End testimonial item 
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="../assets/img/testimonials/persona.png" class="testimonial-img" alt="">
-                  <h3>Lorem, ipsum.</h3>
-                  <h4>Lorem.</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, animi?</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
+                <div class="col-md-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
                 </div>
-              </div>
-            </div><!-- End testimonial item 
+                <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your inquiry has been sent successfully, thank you!</div>
+                    <button type="submit">Request your consultation</button>
+                </div>
+            </div>
+        </form>
+    </div><!-- End Contact Form -->
 
-          </div>
-          <div class="swiper-pagination"></div>
         </div>
 
       </div>
 
-    </section><!-- /Testimonials Section -->
-
+    </section><!-- /Contact Section -->
   </main>
 
   <footer id="footer" class="footer dark-background">
@@ -582,38 +552,36 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">JBGEO</span>
+            <span class="sitename">JBGEO S.R.L.</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>Lorem, ipsum dolor.</p>
             <p>Salta, Capital</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+54 9 3871 11-1111</span></p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+54 9 3871 11-1111</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p class="mt-3"><strong>Phone:</strong> <a href="https://wa.me/3874032062" target="_blank"> <span>+54 9 3874 03-2062</span> </a> </p>
+            <p class="mt-3"><strong>Phone:</strong> <a href="https://wa.me/3875204407" target="_blank"> <span>+54 9 3875 20-4407</span> </a> ></p>
+            <p><strong>Email:</strong> <span>jteruel@jbgeoconsultora.com</span></p>
+            <p><strong>Email:</strong> <span>breale@jbgeoconsultora.com</span></p>
+            <p><strong>Email:</strong> <span>contacto@jbgeoconsultora.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>
             <a href=""><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Ir</h4>
+          <h4>Go</h4>
           <ul>
             <li><a href="../pagesEN/index.html">Home</a></li>
-            <li><a href="../pagesEN/about.html">About Us</a></li>
-            <li><a href="../pagesEN/services.html">Services</a></li>
-            <!-- <li><a href="../pagesEN/projects.html">Proyects</a></li>  -->
-            <li><a href="../pagesEN/contact.html">Contact</a></li>
+            <li><a href="#get-started">About Us</a></li>
+            <li><a href="#Nservicios">Services</a></li>
+            <li><a href="#contactanos">Contact</a></li>
           </ul>
         </div>
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Marcos Turquini</strong> <span>Todos los derechos reservados</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Marcos Turquini</strong> <span>All rights reserved</span></p>
       <div class="credits">
       </div>
     </div>
